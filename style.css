@@ -14,17 +14,17 @@
     height: 40px;
     border-radius: 10px;
     text-align: right;
-    text-size-adjust: auto;
+    font-size: 30px;
 }
 .btn-container{
     display:grid;
-    grid-template: "AC AC" 
-                    "plus plus" 
-                    "minus minus "
-                    "div div";
+    grid-template: "AC plus minus" 
+                    "mul div 1" 
+                    "2 3 4";
     
 }
-/* .button{height:50px;
+.button{height:30px;
     border-radius: 20px;
+    border-color: white;
     margin: 5px;
-} */
+}

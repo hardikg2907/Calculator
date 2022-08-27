@@ -71,10 +71,4 @@ buttons.forEach(
     }
 )
 
-// let a = document.querySelector(".AC");
-// console.log(a);
-// a.addEventListener('click',function(){
-//     console.log("AC");
-// })
-
 console.log("It's on!!");
