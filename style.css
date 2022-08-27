@@ -1,0 +1,30 @@
+.container{
+    background-color: red;
+    left:30%;
+    top:20%;
+    position:absolute;
+    width: 450px;
+    height: 400px;
+    padding: 10px;
+    border-radius: 15px;
+}
+.answer{
+    background-color: rgb(160, 160, 160);
+    width: auto;
+    height: 40px;
+    border-radius: 10px;
+    text-align: right;
+    text-size-adjust: auto;
+}
+.btn-container{
+    display:grid;
+    grid-template: "AC AC" 
+                    "plus plus" 
+                    "minus minus "
+                    "div div";
+    
+}
+/* .button{height:50px;
+    border-radius: 20px;
+    margin: 5px;
+} */
