@@ -37,15 +37,6 @@ function ifac(op){
     }
 }
 
-// function ifop(op){
-//     if(ans.textContent[ans.textContent.length-1]=='+' || ans.textContent[ans.textContent.length-1]=='-' || ans.textContent[ans.textContent.length-1]=='x' || ans.textContent[ans.textContent.length-1]=='÷'){
-//         ans.textContent[ans.textContent.length-1] = op;
-//         console.log(ans.textContent);
-//     }
-//     else ans.textContent[ans.textContent.length-1] += op;
-//     console.log(ans.textContent);
-// }
-
 buttons.forEach(
     btn => {
         btn.addEventListener('click',function(){
